@@ -59,9 +59,6 @@ struct HMC5883_MagData {
 	double orientation;
 };
 
-// Balneário Rincão magnetic declination
-#define MAG_DECLINATION 0.31726
-
 class HMC5883 {
 		int fd;
 		uint8_t magGain;
